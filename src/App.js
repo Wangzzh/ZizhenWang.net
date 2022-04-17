@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Home"
-import Contact from "./Contact";
+import Home from "./views/Home"
+import Contact from "./views/Contact";
 
 const App = () => {
   return (
