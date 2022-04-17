@@ -12,7 +12,11 @@ const BlogExample = (props) => {
     .then((text) => setMarkdown(text));
 
   return (
-    <Blog markdown={markdown}/>
+    <Blog 
+      markdown={markdown}
+      title="Cheat Sheet for Markdown"
+      banner="/test_banner.png"
+    />
   );
 }
 
