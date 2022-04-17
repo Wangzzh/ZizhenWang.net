@@ -8,17 +8,22 @@ class NavHeader extends React.Component {
             <>
                 <Navbar bg="dark" variant="dark" fixed="top">
                     <Container>
-                        <Navbar.Brand>Zizhen Wang</Navbar.Brand>
+                        <Navbar.Brand href="/">Zizhen Wang</Navbar.Brand>
                         <Navbar.Collapse className="justify-content-end">
                             <Nav>
-                                <Nav.Link>Button1</Nav.Link>
-                                <Nav.Link>Button2</Nav.Link>
+                                <Nav.Link href="/contact">Contact</Nav.Link>
+                                <Nav.Link href="/education">Education</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                         <Navbar.Brand></Navbar.Brand>
                         <Navbar.Brand href="https://github.com/Wangzzh/">
-                            <img src={githubLogo} width="40"></img>
+                            <img alt="" src={githubLogo} width="40"></img>
                         </Navbar.Brand>
+                    </Container>
+                </Navbar>
+                <Navbar bg="dark" variant="dark">
+                    <Container>
+                        <Navbar.Brand>Placeholder</Navbar.Brand>
                     </Container>
                 </Navbar>
             </>
