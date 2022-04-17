@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import githubLogo from './GitHub-Mark-64px.png';
 
 class NavHeader extends React.Component {
     render() {
@@ -17,7 +16,7 @@ class NavHeader extends React.Component {
                         </Navbar.Collapse>
                         <Navbar.Brand></Navbar.Brand>
                         <Navbar.Brand href="https://github.com/Wangzzh/">
-                            <img alt="" src={githubLogo} width="40"></img>
+                            <img alt="" src="/GitHub-Mark-64px.png" width="40"></img>
                         </Navbar.Brand>
                     </Container>
                 </Navbar>

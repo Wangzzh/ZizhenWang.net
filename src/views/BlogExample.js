@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from "react";
 import Blog from "./Blog"
 
-const Education = (props) => {
+const BlogExample = (props) => {
   // Markdown
   const [markdown, setMarkdown] = useState("Markdown file unavailable.");
 
-  var markdownPath = require("./Education.md");
+  var markdownPath = require("./BlogExample.md");
   fetch(markdownPath)
     .then((res) => res.text())
     .then((text) => setMarkdown(text));
@@ -16,4 +16,4 @@ const Education = (props) => {
   );
 }
 
-export default Education;
+export default BlogExample;
