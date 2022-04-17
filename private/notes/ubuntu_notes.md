@@ -16,6 +16,27 @@ sudo systemctl start nginx
 
 Now the website should be accessible in browser via [zizhenwang.net](http://zizhenwang.net). It will show a welcome page of Nginx.
 
+Change nginx configuration to route http to react port 3000.
+
+```
+sudo vim /etc/nginx/nginx.conf
+
+# change the http part
+http {
+        server {
+                listen 80;
+
+                location / {
+                        proxy_pass  http://127.0.0.1:3000;
+                        proxy_set_header Host $host;
+                        proxy_set_header X-Real-IP $remote_addr;
+                        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                }
+        }
+}
+
+```
+
 ### Install react
 
 Install Node.js v17. [Reference](https://github.com/nodesource/distributions/blob/master/README.md)
