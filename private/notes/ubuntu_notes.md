@@ -29,7 +29,14 @@ npm -v
 
 It should show the latest node version is v17 and npm is V8.5.5.
 
-Create sample react app and start server.
+Clone from github repository. This may require setting up ssh keys on github.
+
 ```
+git clone git@github.com:Wangzzh/ZizhenWang.net.git
+```
+
+Install dependencies and start react app.
+```
+npm install
 npm start
 ```
