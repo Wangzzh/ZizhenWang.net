@@ -8,9 +8,9 @@ class NavHeader extends React.Component {
         return (
             <div className="NavHeader">
                 <NavHeaderTitle text="Zizhen Wang"/>
-                <NavHeaderButton text="Button1"/>
-                <NavHeaderButton text="Button2"/>
-            </div>
+                <NavHeaderButton text="Button1" route="/home"/>
+                <NavHeaderButton text="Button2" route="/contact"/>
+            </div> 
         );
     }
 }

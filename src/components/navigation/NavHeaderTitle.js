@@ -5,7 +5,7 @@ class NavHeaderTitle extends React.Component {
     render() {
         return (
             <div className="NavHeaderTitle">
-                <div>{this.props.text}</div>
+                {this.props.text}
             </div>
         );
     }

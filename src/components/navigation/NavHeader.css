@@ -1,36 +1,47 @@
 .NavHeader {
+    position: fixed;
+    top: 0px;
     margin: 0px;
     padding: 25px;
     height: 50px;
-    background-color: rgb(28, 21, 36);
-    color: rgb(255, 213, 158);
+    width: 100%;
+    background-color: rgb(26, 22, 66);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.NavHeaderPlaceholder {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(136, 107, 168);
+}
+
+.NavHeaderTitle {
+    top: 15px;
+    bottom: 10px;
+    height: 100%;
+    width: 200px;
+    float: left;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
     font-size: 30px;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
 }
 
-.NavHeaderTitle {
-    height: 100%;
-    width: 300px;
-    float: left;
-    text-align: center;
-    align-items: center;
-    background-color: rgb(28, 21, 36);
-    color: rgb(255, 213, 158);
-    font-size: 40px;
-    font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
-}
-
 .NavHeaderButton {
+    top: 10px;
+    bottom: 10px;
+    width: 120px;
     height: 100%;
-    width: 200px;
     float: right;
+    margin-right: 40px;
+    padding: 0px;
+    padding-top: 10px;
     text-align: center;
-    align-items: center;
-    background-color: rgb(28, 21, 36);
-    color: rgb(255, 213, 158);
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
 }
