@@ -31,6 +31,9 @@ const Home = (props) => {
                         <p>I grew up in Shanghai and received undergradate education in Shanghai Jiao Tong University in electrical and computer science. During the time I joined a dual degree program with University of Michigan and got a bachelor's degree in computer science there. Later, I continued to pursue a master degree in computer science in Georgia Tech, and was since then working as software engineer for Amazon in Seattle.</p>
                       </Row>
                       <Row>
+                        <p>Email: wangzzh96@gmail.com</p>
+                      </Row>
+                      <Row>
                         <Col lg='2'>
                           <img src="/GitHub-Mark-64px.png" alt="github" height="30px" href="https://github.com/Wangzzh/"></img>
                           &nbsp;<a href="https://github.com/Wangzzh/">Github</a>
