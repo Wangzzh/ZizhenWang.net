@@ -19,7 +19,7 @@ const Home = (props) => {
             <Container>
               <Row>
                 <Col lg='4'>
-                  <img src="/selfie.png" alt="selfie"></img>
+                  <img src="/selfie.png" alt="selfie" height="400px"></img>
                 </Col>
                 <Col lg='8'>
                   <div className="d-flex justify-content-center align-items-center h-100">
@@ -34,11 +34,11 @@ const Home = (props) => {
                         <p>Email: wangzzh96@gmail.com</p>
                       </Row>
                       <Row>
-                        <Col lg='2'>
+                        <Col lg='3'>
                           <img src="/GitHub-Mark-64px.png" alt="github" height="30px" href="https://github.com/Wangzzh/"></img>
                           &nbsp;<a href="https://github.com/Wangzzh/">Github</a>
                         </Col>
-                        <Col lg='2'>
+                        <Col lg='3'>
                           <img src="/LI-In-Bug.png" alt="github" height="30px" href="https://www.linkedin.com/in/zizhen-wang-285b51126/"></img>
                           &nbsp;<a href="https://www.linkedin.com/in/zizhen-wang-285b51126/">LinkedIn</a>
                         </Col>
