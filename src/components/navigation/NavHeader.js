@@ -10,7 +10,7 @@ class NavHeader extends React.Component {
                         <Navbar.Brand href="/">Zizhen Wang</Navbar.Brand>
                         <Navbar.Collapse className="justify-content-end">
                             <Nav>
-                                <Nav.Link href="/contact">Contact</Nav.Link>
+                                <Nav.Link href="/blog">Markdown</Nav.Link>
                                 <Nav.Link href="/education">Education</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
