@@ -17,7 +17,7 @@ const Education = (props) => {
                             <br></br>
                             <Row className="justify-content-md-center">
                                 <div style={{ backgroundImage: "url(/education/EducationGatech.png)", height: "600px", width: "1200px", padding: "0px" }}>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(255, 255, 255, 0.7)', height: "600px", width: "400px" }}>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', height: "600px", width: "400px" }}>
                                         <div className="d-flex align-items-center justify-content-md-center h-100">
                                             <Container>
                                                 <Row>
@@ -40,7 +40,7 @@ const Education = (props) => {
                             <br></br>
                             <Row className="justify-content-md-center">
                                 <div style={{ backgroundImage: "url(/education/EducationUmich.png)", height: "600px", width: "1200px", padding: "0px" }}>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(255, 255, 255, 0.7)', height: "600px", width: "400px" }}>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', height: "600px", width: "400px" }}>
                                         <div className="d-flex align-items-center justify-content-md-center h-100">
                                             <Container>
                                                 <Row>
@@ -63,7 +63,7 @@ const Education = (props) => {
                             <br></br>
                             <Row className="justify-content-md-center">
                                 <div style={{ backgroundImage: "url(/education/EducationSJTU.png)", height: "600px", width: "1200px", padding: "0px" }}>
-                                    <div className='mask' style={{ backgroundColor: 'rgba(255, 255, 255, 0.7)', height: "600px", width: "400px" }}>
+                                    <div className='mask' style={{ backgroundColor: 'rgba(255, 255, 255, 0.8)', height: "600px", width: "400px" }}>
                                         <div className="d-flex align-items-center justify-content-md-center h-100">
                                             <Container>
                                                 <Row>
