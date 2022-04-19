@@ -4,6 +4,7 @@ import "./App.css"
 import Home from "./views/Home"
 import Contact from "./views/Contact";
 import BlogExample from "./views/BlogExample";
+import Career from "./views/Career";
 import Education from "./views/Education";
 
 import ColorSpace from "./notes/soft/graphics/foundations/ColorSpace";
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/blog" element={<BlogExample/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/education" element={<Education/>} />
+        <Route path="/career" element={<Career/>} />
 
         <Route path="/notes/soft/graphics/foundations/colorspace" element={<ColorSpace/>}/>
         <Route path="/notes/soft/live2d/rotatingglobe" element={<RotatingGlobe/>}/>
