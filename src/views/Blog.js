@@ -7,6 +7,7 @@ import remarkMath from "remark-math";
 import remarkRehype from "remark-rehype";
 import remarkImages from "remark-images";
 import rehypeKatex from "rehype-katex";
+import rehypeRaw from "rehype-raw";
 import 'katex/dist/katex.min.css'
 
 import NavHeader from "../components/navigation/NavHeader"
@@ -38,7 +39,7 @@ const Blog = (props) => {
                         <ReactMarkdown
                             children={props.markdown}
                             remarkPlugins={[remarkGfm, remarkMath, remarkRehype, remarkImages]}
-                            rehypePlugins={[rehypeKatex]} />
+                            rehypePlugins={[rehypeKatex, rehypeRaw]} />
                     </Col>
                     <Col lg={3} id="margin-right"></Col>
                 </Row>
