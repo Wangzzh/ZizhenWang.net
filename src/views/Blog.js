@@ -22,7 +22,6 @@ const Blog = (props) => {
 
     return (
         <>
-            <NavHeader />
             <Container fluid>
                 <Row className="justify-content-md-center">
                     <div style={{ backgroundImage: bannerPath, height:"300px", width:"1200px"}}>

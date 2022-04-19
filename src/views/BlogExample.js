@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Blog from "./Blog"
+import NavHeaderNotes from "../components/navigation/NavHeaderNotes";
 
 const BlogExample = (props) => {
   // Markdown
@@ -12,11 +13,14 @@ const BlogExample = (props) => {
     .then((text) => setMarkdown(text));
 
   return (
-    <Blog 
-      markdown={markdown}
-      title="Cheat Sheet for Markdown"
-      banner="/test_banner.png"
-    />
+    <>
+      <NavHeaderNotes/>
+      <Blog 
+        markdown={markdown}
+        title="Cheat Sheet for Markdown"
+        banner="/test_banner.png"
+      />
+    </>
   );
 }
 

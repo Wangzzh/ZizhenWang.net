@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import NavHeaderNotes from "../../../../components/navigation/NavHeaderNotes";
 import Blog from "../../../../views/Blog";
 
 const ColorSpace = (props) => {
@@ -12,11 +13,14 @@ const ColorSpace = (props) => {
     .then((text) => setMarkdown(text));
 
   return (
-    <Blog 
-      markdown={markdown}
-      title="Color Space"
-      banner="/test_banner.png"
-    />
+    <>
+      <NavHeaderNotes/>
+      <Blog 
+        markdown={markdown}
+        title="Color Space"
+        banner="/test_banner.png"
+      />
+    </>
   );
 }
 
